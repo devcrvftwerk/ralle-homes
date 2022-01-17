@@ -6605,6 +6605,10 @@ figcaption {
     grid-template-rows: auto auto;
   }
 
+  .bulding-paragraph {
+    width: 500px;
+  }
+
   .side-by-side-container {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -7277,6 +7281,10 @@ figcaption {
 
   .side-by-side-text-container.justify-center.bg-blue {
     height: auto;
+  }
+
+  .div-block-153 {
+    padding: 16px;
   }
 
   .side-by-side-reputation {
