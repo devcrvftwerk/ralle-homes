@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jan 17 2022 01:34:27 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jan 17 2022 01:42:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61d25e80a0fbcb4c08181976" data-wf-site="61afc0fcd7ceaa1185990a2c">
 <head>
   <meta charset="utf-8">
@@ -42,7 +42,7 @@
     if(next_href == undefined) {
       next_href = $('#post_list').children().children().first().find('a').attr('href');
     }
-    //if first post in list
+    //if first post in list.
     if(previous_href == undefined) {
       previous_href = $('#post_list').children().children().last().find('a').attr('href');
     }
@@ -54,7 +54,7 @@
     }
     console.log(next_text);
     console.log(prev_text)
-    //apply hrefs to next / previous buttons these are flipped to match the correct order flow
+    //apply hrefs to next / previous buttons these are flipped to match the correct order flow.
     $("#Prev_Build").html(next_text);
     $("#Next_Build").html(prev_text);
     $('#previous_button').attr('href', next_href);
