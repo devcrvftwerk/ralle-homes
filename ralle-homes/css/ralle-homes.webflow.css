@@ -3993,7 +3993,7 @@ figcaption {
 .custom-side-by-side {
   display: -ms-grid;
   display: grid;
-  height: 96vh;
+  min-height: 100vh;
   grid-auto-columns: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
