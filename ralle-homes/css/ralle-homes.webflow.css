@@ -3662,11 +3662,9 @@ figcaption {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: url('../images/61af7682f979b01132d3cf34_Noblewood-Hero-text.png'), url('../images/61af9f56994e2019954a78e0_noblewood-n.png'), -webkit-gradient(linear, left top, left bottom, from(#1b2525), color-stop(80%, #1b2526));
-  background-image: url('../images/61af7682f979b01132d3cf34_Noblewood-Hero-text.png'), url('../images/61af9f56994e2019954a78e0_noblewood-n.png'), linear-gradient(180deg, #1b2525, #1b2526 80%);
-  background-position: 50% 50%, 60% 45%, 0px 0px;
-  background-size: 450px, 420px, auto;
-  background-repeat: no-repeat, no-repeat, repeat;
+  background-image: url('../images/breakers1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
   color: #fff;
 }
 
